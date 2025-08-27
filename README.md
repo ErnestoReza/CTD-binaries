@@ -1,6 +1,6 @@
 # CTD-binaries
 
-- install_online.sh:
+- install_online:
   
 Instalacion de software CTD en equipos conetados a red. 
 
