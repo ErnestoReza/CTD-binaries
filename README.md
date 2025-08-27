@@ -1,2 +1,7 @@
 # CTD-binaries
-Binaries for CTD
+
+install_online.sh:
+Instalacion de software CTD en equipos conetados a red. 
+
+install_offline:
+Instalacion de software CTD en equipos sin red. Requiere conectar USB con archivo de instalacion.
