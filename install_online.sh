@@ -77,7 +77,7 @@ cp -a "$INSTALL_DIR/LCD.dist/Verry Important Files/." "/home/pi/Desktop/CTD/Verr
 cp -a "/home/pi/Desktop/temp/lib/test_files/." "/home/pi/Desktop/CTD/lib/test_files"
 cp "/home/pi/Desktop/temp/lib/config.ini" "/home/pi/Desktop/CTD/lib/config.ini"
 
-rm -r "/home/pi/Desktop/temp"
+rm -rf "/home/pi/Desktop/temp"
 
 chown -R pi:pi "/home/pi/Desktop/CTD"
 
@@ -101,7 +101,7 @@ exit 0
 EOF
 
 echo "📁 Deleting Backups …"
-rm -r /home/pi/Documents/*
+rm -rf /home/pi/Documents/*
 
 echo "🔄 Reloading systemd & starting service …"
 systemctl daemon-reload
